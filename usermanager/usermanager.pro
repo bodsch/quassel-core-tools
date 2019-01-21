@@ -27,3 +27,5 @@ HEADERS += QuasselUser.h
 
 LIBS += -L/usr/lib64 -lqca-qt5
 INCLUDEPATH += /usr/include/Qca-qt5/QtCrypto
+
+QMAKE_CXXFLAGS += -std=c++0x

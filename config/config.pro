@@ -22,3 +22,5 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 # Input
 SOURCES += main.cpp
+
+QMAKE_CXXFLAGS += -std=c++0x
