@@ -6,7 +6,11 @@ language: cpp
 before_install:
   - eval "${MATRIX_EVAL}"
   - sudo apt-get update
-  - sudo apt-get install -y qt5-qmake qt5-default libqca-qt5-2-dev libqca2-dev make
+  - sudo aptitude search qca
+  - sudo aptitude search qt5
+  - sudo aptitude search qmake
+  - sudo apt-get install -y make
+  # qt5-qmake qt5-default libqca-qt5-2-dev libqca2-dev make
 
 matrix:
   fast_finish: true
