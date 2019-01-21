@@ -10,6 +10,9 @@ before_install:
   - sudo aptitude search qt5
   - sudo aptitude search qmake
   - sudo apt-get install -y make
+  - sudo apt-get install -y libqca2-dev
+  - sudo apt-get install -y qt5-default
+  - sudo apt-get install -y qt5-qmake
   # qt5-qmake qt5-default libqca-qt5-2-dev libqca2-dev make
 
 matrix:
