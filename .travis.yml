@@ -14,7 +14,7 @@ before_install:
   # - http://download.qt.io/official_releases/qt/5.12/5.12.0/qt-opensource-linux-x64-5.12.0.run
   - sudo apt-get install -y make
   - sudo apt-get install -y qt512base
-  - sudo apt-get install -y libqca2-dev
+  - sudo apt-get install -y libqca-qt5-2 libqca-qt5-2-dev
   # - sudo apt-get install -y qt5-qmake
   - . /opt/qt512/bin/qt512-env.sh
   # qt5-qmake qt5-default libqca-qt5-2-dev libqca2-dev make
