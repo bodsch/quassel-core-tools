@@ -13,4 +13,6 @@ small tools for quassel-core:
   * Qt5Sql
   * QCA
 
-
+## similar projects
+- [quassel-manage-users](https://github.com/eugeii/quassel-manage-users.git)
+- [configure-quasselcore.py ](https://github.com/wrouesnel/docker.quassel-ldap/blob/master/quassel-ldap/configure-quasselcore.py)
