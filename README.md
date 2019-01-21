@@ -1,5 +1,9 @@
 # quassel-core-tools
 
+[![Build Status](https://travis-ci.org/bodsch/quassel-core-tools.svg?branch=master)][travis]
+
+[travis]: https://travis-ci.org/bodsch/quassel-core-tools
+
 small tools for quassel-core:
 - config
   * read and write the config file
